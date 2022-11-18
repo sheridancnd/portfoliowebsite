@@ -1,0 +1,194 @@
+	body {
+	font-family: 'Nunito', sans-serif;
+	margin: 50px 150px 75px 150px;
+	text-align: center;
+	}
+
+	p {
+	font-size: 18px;
+	}
+	
+	.big-div-header {
+	height: 550px;
+	display: grid;
+	grid-template-rows: 525x 475px;
+	justify-content: center;
+	align-content: center;
+	text-align: center
+	padding: 20px;
+
+	}
+
+	.big-div-langley {
+	height: 450px;
+	display: grid;
+	grid-template-rows: 50px 375px;
+	justify-content: center;
+	align-content: center;
+	text-align: center
+	padding: 20px;
+
+	}
+	
+	.big-div-glenn {
+	height: 475px;
+	display: grid;
+	grid-template-rows: 50px 425px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+	.big-div-water {
+	height: 1100px;
+	display: grid;
+	grid-template-rows: 50px 1050px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+	
+	}
+
+	.big-div-thstr {
+	height: 850px;
+	display: grid;
+	grid-template-rows: 50px 800px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+	.big-div-gimb {
+	height: 675px;
+	display: grid;
+	grid-template-rows: 50px 550px 75px ;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+	.big-div-plate {
+	height: 400px;
+	display: grid;
+	grid-template-rows: 50px 350px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+	.big-div-bay {
+	height: 650px;
+	display: grid;
+	grid-template-rows: 50px 600px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+	.big-div-headset {
+	height: 650px;
+	display: grid;
+	grid-template-rows: 50px 600px;
+	justify-items: center;
+	align-items: center;
+
+	}
+	
+	.big-div-tool {
+	height: 425px;
+	display: grid;
+	grid-template-rows: 50px 375px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+	.big-div-bridge {
+	height: 500px;
+	display: grid;
+	grid-template-rows: 50px 450px;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+
+	}
+	
+
+	.medimg-div-left {
+	width: 850px;
+	display: grid;
+	grid-template-columns: 300px 500px;
+	grid-column-gap: 50px;
+	justify-items: center;
+	align-items: center;
+	}
+	
+	.medimg-div-right {
+	width: 850px;
+	display: grid;
+	grid-template-columns: 500px 300px;
+	grid-column-gap: 50px;
+	justify-items: center;
+	align-items: center;
+	text-align: center
+	}
+	
+	.mednoimg-div {
+	width: 850px;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-content: center;
+	text-align: center
+	}
+	
+	
+	.small-div {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	
+	}
+	
+	.three-columns {
+	width: 850px;
+	display: grid;
+	grid-template-columns: 280px 280px 280px;
+	grid-column-gap: 20px;
+	justify-items: center;
+	align-items: center;
+	}
+	
+	.two-rows {
+	display: grid;
+	grid-row-gap: 20px;
+	justify-items: center;
+	align-items: center;
+	}
+	
+	.img-div {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	
+	}
+	
+	.vid-div {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	
+	}
+	
+	
+	.header-div {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	}

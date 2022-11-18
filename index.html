@@ -1,221 +1,24 @@
-<style>
-
-	body {
-	font-family: 'Quicksand', monospace;
-	margin: 50px 150px 75px 150px;
-	text-align: center;
-	}
-
-	p {
-	font-size: 18px;
-	}
-	
-	.big-div-header {
-	height: 550px;
-	display: grid;
-	grid-template-rows: 525x 475px;
-	justify-content: center;
-	align-content: center;
-	text-align: center
-	padding: 20px;
-
-	}
-
-	.big-div-langley {
-	height: 450px;
-	display: grid;
-	grid-template-rows: 50px 375px;
-	justify-content: center;
-	align-content: center;
-	text-align: center
-	padding: 20px;
-
-	}
-	
-	.big-div-glenn {
-	height: 475px;
-	display: grid;
-	grid-template-rows: 50px 425px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-	.big-div-water {
-	height: 1100px;
-	display: grid;
-	grid-template-rows: 50px 1050px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-	
-	}
-
-	.big-div-thstr {
-	height: 850px;
-	display: grid;
-	grid-template-rows: 50px 800px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-	.big-div-gimb {
-	height: 675px;
-	display: grid;
-	grid-template-rows: 50px 550px 75px ;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-	.big-div-plate {
-	height: 400px;
-	display: grid;
-	grid-template-rows: 50px 350px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-	.big-div-bay {
-	height: 650px;
-	display: grid;
-	grid-template-rows: 50px 600px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-	.big-div-headset {
-	height: 650px;
-	display: grid;
-	grid-template-rows: 50px 600px;
-	justify-items: center;
-	align-items: center;
-
-	}
-	
-	.big-div-tool {
-	height: 425px;
-	display: grid;
-	grid-template-rows: 50px 375px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-	.big-div-bridge {
-	height: 500px;
-	display: grid;
-	grid-template-rows: 50px 450px;
-	justify-items: center;
-	align-items: center;
-	padding: 20px;
-
-	}
-	
-
-	.medimg-div-left {
-	width: 850px;
-	display: grid;
-	grid-template-columns: 300px 500px;
-	grid-column-gap: 50px;
-	justify-items: center;
-	align-items: center;
-	}
-	
-	.medimg-div-right {
-	width: 850px;
-	display: grid;
-	grid-template-columns: 500px 300px;
-	grid-column-gap: 50px;
-	justify-items: center;
-	align-items: center;
-	text-align: center
-	}
-	
-	.mednoimg-div {
-	width: 850px;
-	display: grid;
-	grid-template-columns: 1fr;
-	justify-content: center;
-	align-content: center;
-	text-align: center
-	}
-	
-	
-	.small-div {
-	display: flex;
-	align-items: center;
-	justify-items: center;
-	
-	}
-	
-	.three-columns {
-	width: 850px;
-	display: grid;
-	grid-template-columns: 280px 280px 280px;
-	grid-column-gap: 20px;
-	justify-items: center;
-	align-items: center;
-	}
-	
-	.two-rows {
-	display: grid;
-	grid-row-gap: 20px;
-	justify-items: center;
-	align-items: center;
-	}
-	
-	.img-div {
-	display: flex;
-	align-items: center;
-	justify-content: right;
-	
-	}
-	
-	.vid-div {
-	display: flex;
-	align-items: center;
-	justify-content: right;
-	
-	}
-	
-	
-	.header-div {
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	}
-</style>
-
-
-
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="description" content="Engineering portfolio">
 		<Title> Carla Sheridan Engineering Portfolio </title>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
 	</head>
 
 
 	<body>
 		<div>
-		<div class="big-div-header" style="background-color: rgb(160, 183, 214);">
-			<h1> Carla Sheridan's Engineering Portfolio </h1>
-			<div class="medimg-div-left">
+		<div class="big-div-header" style="background-color: rgb(112, 148, 194);">
+			<div class="header-div" style="color:white;"> 
+				<h1> Carla Sheridan's Engineering Portfolio </h1>
+			</div>
+			<div class="medimg-div-left" style="color:white;">
 			
 				<img height="350px" src="grad.jpg" alt="grad" />
-				<p> I'm a first-year Masters student in aerospace engineering at Georgia Tech. I'm interested in aeronautics and sustainable techonologies, specifically eVTOL and vertical lift research, urban and regional air mobility, and fully electric and hybrid electric aircraft concepts. I did my undergrad at Boston University in mechanical engineering with a concentration in aeropsace. I took a gap year in 2020-2021 to do two internships at NASA, I completed an internship at Pratt & Whitney in the summer of 2019, and I was heavily involved in BU's Rocket Propulsion Group throughout undergrad. See my portfolio below for technical summaries, videos and pictures from all of my most important enginering experiences from internships, undergraduate exctracurriculars, and classes. I coded this website from scratch using HTML and CSS as a project in and of itself. For my work experience summary and education, please visit my <a href="https://www.linkedin.com/in/carla-sheridan/">LinkedIn</a>! </p>
+				<p> I'm a first-year Masters student in aerospace engineering at Georgia Tech. I'm interested in aeronautics and sustainable techonologies, specifically eVTOL and vertical lift research, urban and regional air mobility, and fully electric and hybrid electric aircraft concepts. I did my undergrad at Boston University in mechanical engineering with a concentration in aeropsace. I took a gap year in 2020-2021 to do two internships at NASA, I completed an internship at Pratt & Whitney in the summer of 2019, and I was heavily involved in BU's Rocket Propulsion Group throughout undergrad. See my portfolio below for technical summaries, videos and pictures from all of my most important enginering experiences from internships, undergraduate exctracurriculars, and classes. I coded this website from scratch using HTML and CSS as a project in and of itself. For my work experience summary and education, please visit my <a href="https://www.linkedin.com/in/carla-sheridan/" style="color:white;">LinkedIn</a>! </p>
 			</div>
 			
 		</div>		
@@ -227,7 +30,7 @@
 			
 			<div class="mednoimg-div"> 
 			
-				<p> During my 5-month internship at NASA Langley Research Center in the fall of 2020, I was tasked with researching the viability of the aerodynamic analysis tool, VSPAERO, to rapidly evaluate aerodynamics of aircraft conceptual designs with propeller-blown wing configurations. In order to run the many flow conditions and propeller locations that we planned to study, I had to complete several smaller tasks in preparation. I studied what parameters needed to be used to setup the simulation appropriately. I conducted an extensive mesh study and selected an appropriate mesh refinement for the final simulations. I learned how to script OpenVSP and VSPAERO to be able to run many simulations which tested different setup methods or swept through parameters to identify patterns in changes in outputs. In order to analyze results, I wrote scripts in MATLAB to quickly process results into aerodynamic coefficients versus mesh refinement plots, and I studied VSPAERO’s output flow visualizations. In the spring following my internship a new intern continued the research, and together we wrote a conference paper to report our findings and presented at a technical session at the 2021 AIAA Aviation conference. <a href="https://arc.aiaa.org/doi/10.2514/6.2021-2510">Click here to read the paper! </a> </p>
+				<p> During my 5-month internship at NASA Langley Research Center in the fall of 2020, I was tasked with researching the viability of the aerodynamic analysis tool, VSPAERO, to rapidly evaluate aerodynamics of aircraft conceptual designs with propeller-blown wing configurations. In order to run the many flow conditions and propeller locations that we planned to study, I had to complete several smaller tasks in preparation. I studied what parameters needed to be used to setup the simulation appropriately. I conducted an extensive mesh study and selected an appropriate mesh refinement for the final simulations. I learned how to script OpenVSP and VSPAERO to be able to run many simulations which tested different setup methods or swept through parameters to identify patterns in changes in outputs. In order to analyze results, I wrote scripts in MATLAB to quickly process results into aerodynamic coefficients versus mesh refinement plots, and I studied VSPAERO’s output flow visualizations. In the spring following my internship a new intern continued the research, and together we wrote a conference paper to report our findings and presented at a technical session at the 2021 AIAA Aviation conference. <a href="https://arc.aiaa.org/doi/10.2514/6.2021-2510" style="color:black;">Click here to read the paper! </a> </p>
 					
 			</div>
 		</div>
@@ -277,7 +80,7 @@
 				</div>
 			
 				<div class="mednoimg-div" style="color:white;"> 
-					<p> I applied mechanics of materials principals (stress due to normal/axial tension/compression, bending stress, combined loading calculations, buckling calculations, and von Mises combined stress equations for pressure vessels), dynamics (free body diagrams to determine load cases), and materials science principles (accounted for material compatibility between steel and aluminum, and for strength reduction of metals at high temperatures) to design the overall structures and to select commercial off the shelf (COTS) hardware. I accounted for interfaces with the fluids subsystem by designing interfaces for fluid routing, and designing the fluid components (fittings and instrumentation) layout leading to the engine. I followed NASA standards NASA-STD-5001B (Structural Design and Test Factors of Safety for Spaceflight Hardware) and NASA-STD-5020A (Requirements for Threaded Fastening Systems in Spaceflight Hardware) for structural factors of safety and design requirements, and used the military handbook MIL-HDBK-5 (Metallic Materials and Elements for Aerospace Vehicle Structures) for material property information. I modeled the endcap and the thrust structure assembly using SolidWorks, and conducted structural analysis using the SolidWorks FEA tool. Pursuit is expected to launch in the winter of 2022! <a href="http://burpg.org/"> Click here to learn more about Pursuit and BURPG.</a> </p>
+					<p> I applied mechanics of materials principals (stress due to normal/axial tension/compression, bending stress, combined loading calculations, buckling calculations, and von Mises combined stress equations for pressure vessels), dynamics (free body diagrams to determine load cases), and materials science principles (accounted for material compatibility between steel and aluminum, and for strength reduction of metals at high temperatures) to design the overall structures and to select commercial off the shelf (COTS) hardware. I accounted for interfaces with the fluids subsystem by designing interfaces for fluid routing, and designing the fluid components (fittings and instrumentation) layout leading to the engine. I followed NASA standards NASA-STD-5001B (Structural Design and Test Factors of Safety for Spaceflight Hardware) and NASA-STD-5020A (Requirements for Threaded Fastening Systems in Spaceflight Hardware) for structural factors of safety and design requirements, and used the military handbook MIL-HDBK-5 (Metallic Materials and Elements for Aerospace Vehicle Structures) for material property information. I modeled the endcap and the thrust structure assembly using SolidWorks, and conducted structural analysis using the SolidWorks FEA tool. Pursuit is expected to launch in the winter of 2022! <a href="http://burpg.org/" style="color:white;"> Click here to learn more about Pursuit and BURPG.</a> </p>
 				</div>
 			</div>
 		</div>
@@ -365,7 +168,7 @@
 		</div>
 		
 		
-		<div class="big-div-bridge" style="background-color: rgb(109, 136, 130);" style="color:white;">
+		<div class="big-div-bridge" style="background-color: rgb(91, 113, 108);" style="color:white;">
 			<div class="header-div" style="color:white;"> 
 				<h2> Straw Truss Bridge </h2>
 			</div>
