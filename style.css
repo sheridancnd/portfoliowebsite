@@ -1,6 +1,6 @@
 	body {
 	font-family: 'Nunito', sans-serif;
-	margin: 50px 150px 75px 150px;
+	margin: 50px 150px 50px 150px;
 	text-align: center;
 	}
 
@@ -9,24 +9,25 @@
 	}
 	
 	.big-div-header {
-	height: 550px;
+	height: 650px;
 	display: grid;
-	grid-template-rows: 525x 475px;
+	grid-template-rows: 60px 440px 20px;
 	justify-content: center;
 	align-content: center;
-	text-align: center
-	padding: 20px;
+	text-align: center;
+	overflow-wrap: break-word;
 
 	}
 
 	.big-div-langley {
-	height: 450px;
+	height: 425px;
 	display: grid;
 	grid-template-rows: 50px 375px;
 	justify-content: center;
 	align-content: center;
-	text-align: center
+	text-align: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
@@ -37,6 +38,7 @@
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
@@ -47,6 +49,7 @@
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 	
 	}
 
@@ -57,6 +60,7 @@
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
@@ -67,6 +71,7 @@
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
@@ -77,16 +82,18 @@
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
 	.big-div-bay {
-	height: 650px;
+	height: 800px;
 	display: grid;
-	grid-template-rows: 50px 600px;
+	grid-template-rows: 100px 600px;
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
@@ -96,56 +103,64 @@
 	grid-template-rows: 50px 600px;
 	justify-items: center;
 	align-items: center;
+	overflow-wrap: break-word;
 
 	}
 	
 	.big-div-tool {
-	height: 425px;
+	height: 500px;
 	display: grid;
 	grid-template-rows: 50px 375px;
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
 	.big-div-bridge {
-	height: 500px;
+	height: 550px;
 	display: grid;
 	grid-template-rows: 50px 450px;
 	justify-items: center;
 	align-items: center;
 	padding: 20px;
+	overflow-wrap: break-word;
 
 	}
 	
 
 	.medimg-div-left {
-	width: 850px;
+	width: 100%;
+	height: 100%;
 	display: grid;
-	grid-template-columns: 300px 500px;
-	grid-column-gap: 50px;
+	grid-template-columns: 30% 50%;
+	grid-column-gap: 10%;
 	justify-items: center;
 	align-items: center;
+	overflow-wrap: break-word;
+	padding: 5%;
 	}
 	
 	.medimg-div-right {
 	width: 850px;
+	margin: auto;
 	display: grid;
 	grid-template-columns: 500px 300px;
 	grid-column-gap: 50px;
 	justify-items: center;
 	align-items: center;
-	text-align: center
+	text-align: center;
+	overflow-wrap: break-word;
 	}
 	
 	.mednoimg-div {
-	width: 850px;
 	display: grid;
 	grid-template-columns: 1fr;
 	justify-content: center;
 	align-content: center;
-	text-align: center
+	text-align: center;
+	overflow-wrap: break-word;
 	}
 	
 	
@@ -153,16 +168,17 @@
 	display: flex;
 	align-items: center;
 	justify-items: center;
+	overflow-wrap: break-word;
 	
 	}
 	
 	.three-columns {
-	width: 850px;
 	display: grid;
 	grid-template-columns: 280px 280px 280px;
 	grid-column-gap: 20px;
 	justify-items: center;
 	align-items: center;
+	overflow-wrap: break-word;
 	}
 	
 	.two-rows {
@@ -170,12 +186,14 @@
 	grid-row-gap: 20px;
 	justify-items: center;
 	align-items: center;
+	overflow-wrap: break-word;
 	}
 	
 	.img-div {
 	display: flex;
 	align-items: center;
 	justify-content: right;
+	overflow-wrap: break-word;
 	
 	}
 	
@@ -183,6 +201,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: right;
+	overflow-wrap: break-word;
 	
 	}
 	
@@ -191,4 +210,5 @@
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
+	overflow-wrap: break-word;
 	}
