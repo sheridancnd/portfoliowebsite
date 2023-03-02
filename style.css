@@ -10,6 +10,7 @@
 	
 	.big-div-header {
 	height: 650px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 60px 440px 20px;
 	justify-content: center;
@@ -21,6 +22,7 @@
 
 	.big-div-langley {
 	height: 425px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 375px;
 	justify-content: center;
@@ -33,6 +35,7 @@
 	
 	.big-div-glenn {
 	height: 475px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 425px;
 	justify-items: center;
@@ -44,6 +47,7 @@
 	
 	.big-div-water {
 	height: 1100px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 1050px;
 	justify-items: center;
@@ -55,6 +59,7 @@
 
 	.big-div-thstr {
 	height: 850px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 800px;
 	justify-items: center;
@@ -66,6 +71,7 @@
 	
 	.big-div-gimb {
 	height: 675px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 550px 75px ;
 	justify-items: center;
@@ -77,6 +83,7 @@
 	
 	.big-div-plate {
 	height: 400px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 350px;
 	justify-items: center;
@@ -88,6 +95,7 @@
 	
 	.big-div-bay {
 	height: 800px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 100px 600px;
 	justify-items: center;
@@ -99,6 +107,7 @@
 	
 	.big-div-headset {
 	height: 650px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 600px;
 	justify-items: center;
@@ -109,6 +118,7 @@
 	
 	.big-div-tool {
 	height: 500px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 375px;
 	justify-items: center;
@@ -120,6 +130,7 @@
 	
 	.big-div-bridge {
 	height: 550px;
+	width: 1000px;
 	display: grid;
 	grid-template-rows: 50px 450px;
 	justify-items: center;
